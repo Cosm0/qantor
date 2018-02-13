@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qantor", "Qantor\Qantor.csproj", "{04E673A7-963B-4B4D-BA9E-5FB5816939DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qantor.DataAccess", "Qantor.DataAccess\Qantor.DataAccess.csproj", "{4D9F126A-A3E4-4AA8-BE01-FD25BF88B58F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E673A7-963B-4B4D-BA9E-5FB5816939DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E673A7-963B-4B4D-BA9E-5FB5816939DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E673A7-963B-4B4D-BA9E-5FB5816939DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E673A7-963B-4B4D-BA9E-5FB5816939DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9F126A-A3E4-4AA8-BE01-FD25BF88B58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9F126A-A3E4-4AA8-BE01-FD25BF88B58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9F126A-A3E4-4AA8-BE01-FD25BF88B58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9F126A-A3E4-4AA8-BE01-FD25BF88B58F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44CD13DD-077F-4590-B41A-1F2C15523F7D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,77 @@
+﻿body {
+    background-color: #0B0D13;
+    background-image: url('/images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pointer-area {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table-key {
+    text-align: right;
+}
+
+.table-value {
+    text-align: left;
+    font-weight: bold;
+}
+
+.main-menu-item {
+    font-size: 120%;
+}
+
+.authentication-area {
+    max-width: 30em;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.exchange-rate-list-view {
+    max-width: 30em;
+}
+
+.user-account-list-view {
+    max-width: 15em;
+}
+
+.amount-input-wrapper {
+    display: inline-block;
+    max-width: 10em;
+}
+
+.currency-dropdown-wrapper {
+    display: inline-block;
+    max-width: 15em;
+}
+
+.user-details {
+    max-width: 25em;
+}
+
+.edit-errors {
+    max-width: 30em;
+}
+
+#root {
+    width: 100%;
+    margin: auto;
+}
+
+#main-title {
+    font-size: 400%;
+}
+
+@media screen and (min-width: 55em) {
+    #root {
+        max-width: 55em;
+    }
+}

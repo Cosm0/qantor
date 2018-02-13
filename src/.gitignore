@@ -1,0 +1,11 @@
+bin
+obj
+node_modules
+launchSettings.json
+bundle.js
+*.bundle.js
+.vs
+*.suo
+*.DotSettings.user
+*.user
+*.map
